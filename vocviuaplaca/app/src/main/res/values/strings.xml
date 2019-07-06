@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">você viu a placa</string>
+    <string name="app_name">viu o placar</string>
+    <string name="main_header_title">o placar</string>
+    <string name="main_header_subtitle">que tá no jogo e você vai anotar aqui</string>
+    <string name="new_game_button">novo jogo</string>
+    <string name="leave_button">sair</string>
+    <string name="developed_by">Developed by Carol</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="game_title">Bora</string>
+    <string name="game_question">qual que é o evento?</string>
+    <string name="game_hint">Ex.: Campeonato Gaúcho 2020</string>
+    <string name="next">Próximo</string>
+    <string name="home_team_title">Time da casa</string>
+    <string name="home_team_subtitle">Qual o time mandante?</string>
+    <string name="home_team_hint">Ex.: Internacional</string>
+    <string name="away_team_title">Time visitante</string>
+    <string name="away_team_subtitle">Qual o time visitante?</string>
+    <string name="away_team_hint">Ex.: Grêmio</string>
+    <string name="goal">Gol</string>
+    <string name="restart_match">Reiniciar partida</string>
+    <string name="finish_match">Finalizar partida</string>
+    <string name="away_team">Visitante</string>
+    <string name="home_team">Casa</string>
+    <string name="event_name">Nome do evento</string>
 </resources>

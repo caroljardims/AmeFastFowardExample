@@ -1,11 +1,57 @@
 <resources>
 
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/background_menu</item>
+        <item name="android:editTextColor">@color/colorBgButton</item>
+    </style>
+
+    <style name="title">
+        <item name="android:textSize">@dimen/main_header_title</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/titleLabel</item>
+        <item name="android:fontFamily">@font/arial_rounded_mt_bold</item>
+    </style>
+
+    <style name="subtitle">
+        <item name="android:textSize">@dimen/main_header_subtitle</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="titleGameWizard">
+        <item name="android:textSize">@dimen/main_header_title</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/arial_rounded_mt_bold</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="subtitleGameWizard" parent="titleGameWizard">
+        <item name="android:textSize">@dimen/main_header_subtitle</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FullScreen" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="customButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textButton</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+
+    <style name="customInputWizard">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/custom_edittext</item>
     </style>
 
 </resources>
