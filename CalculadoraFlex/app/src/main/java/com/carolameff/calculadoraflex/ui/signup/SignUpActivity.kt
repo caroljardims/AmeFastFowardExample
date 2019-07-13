@@ -2,6 +2,7 @@ package com.carolameff.calculadoraflex.ui.signup
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.carolameff.calculadoraflex.R
@@ -36,8 +37,9 @@ class SignUpActivity : AppCompatActivity() {
 
     private fun saveInRealTimeDatabase() {
         val user = User(
-            inputName.text.toString(), inputEmail.text.toString(),
-            inputPhone.text.toString()
+            name = inputName.text.toString(),
+            email = inputEmail.text.toString(),
+            phone = inputPhone.text.toString()
         )
         FirebaseDatabase.getInstance().getReference("Users")
             .child(FirebaseAuth.getInstance().currentUser!!.uid)
